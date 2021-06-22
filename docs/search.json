@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-21T19:19:01-05:00"
+      "last_modified": "2021-06-21T19:41:08-05:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,15 @@
       "description": "We will show which months soccer players are often born in.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-21T19:21:41-05:00"
+      "last_modified": "2021-06-21T19:41:10-05:00"
+    },
+    {
+      "path": "soccer_data.html",
+      "title": "Soccer Data",
+      "description": "A new article created using the Distill format.\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T19:41:11-05:00"
     }
   ],
   "collections": []

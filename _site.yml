@@ -9,4 +9,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Soccer Data"
+      href: soccer_data.html
 output: distill::distill_article

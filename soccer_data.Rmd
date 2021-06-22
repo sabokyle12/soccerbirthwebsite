@@ -1,0 +1,28 @@
+---
+title: "Soccer Data"
+description: |
+  A new article created using the Distill format.
+site: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+```{r}
+x <- read_csv("birthdates.csv")
+x %>% 
+  arrange(x) %>%
+  mutate(birth_month = substring(value, 7, 8)) %>%
+  group_by(birth_month) %>%
+  summarize(total = n()) %>%
+  mutate(month = c("Jan", "Feb", "Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")) %>%
+  ggplot(mapping = aes(x = month, y = total, fill = month)) +
+  geom_col() + 
+  coord_flip() 
+
+```
+
+
+
