@@ -1,0 +1,13 @@
+---
+title: "Soccer Player Birth Months"
+description: |
+  We will show which months soccer players are often born in.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+
+```
+
